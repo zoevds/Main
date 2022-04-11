@@ -1,15 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Details</title>
   </head>
-    <h1>The colosseumContact details</h1>
-    <input type="text" placeholder="name" />
-    <input type="text" Plcaeholder="Phone number" />
-    <input type="text" placeholder="Email" />
+    <h1>The colosseum Contact details</h1>
+    <form
+  action="https://formspree.io/f/xqknyenw"
+  method="POST"
+>
+  <label>
+    Your full name:
+    <input type="text" name="Full name">
+  </label>
+  <label>
+    Your email:
+    <input type="email" name="Your">
+  </label>
+  <label>
+    Contact Details:
+    <input type="text" name="Contact details">
+  </label>
+  <label>
+    Date:
+    <input type="date" name="Date">
+  </label>
+  <label>
+    Time:
+    <input type="time" name="Time">
+  </label>
+ 
+
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+    
     <a href="./index.html">Home Page</a>
     <link rel="stylesheet" href="contact.css">
   </body>
